@@ -107,6 +107,7 @@ h1{
 .image{
   float: left;
   width: 50%;
+
 }
 .requirements{
   display: grid;
@@ -134,7 +135,7 @@ h1{
   align-items: center;
   justify-content: center;
   box-shadow: 7px 7px 5px grey;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   transition: 0.25s;
 }
 .one,.two,.three,.four{
@@ -146,5 +147,51 @@ h1{
   justify-content: center;
   /* box-shadow: 7px 7px grey; */
   border: 2px solid black;
-  /* transition: 0.25s; */
+}
+.up{
+  width: 100%;
+  background-color: black;
+  align-items: center;
+}
+.head{
+  position: fixed;
+  top: 120px;
+  left: 30%;
+  color: white;
+  font-size: 65px;
+}
+.down{
+  /* background-color: blue; */
+  height: 252px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.box{
+  background-color: white;
+  height: 180px;
+  width: 750px;
+  border-radius: 20px;
+  float: left;
+  padding: 15px;
+  background-color: lightgray;
+  box-shadow: 7px 7px 5px grey;
+}
+.submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  /* background-color: green; */
+}
+.submit-button{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0;
+  font-size: 25px;
+  background-color: cyan;
+  box-shadow: 3px 3px 5px gray;
+}
+.submit-button:active{
+  box-shadow: inset 5px 5px 5px gray;
 }
