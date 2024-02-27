@@ -195,3 +195,7 @@ h1{
 .submit-button:active{
   box-shadow: inset 5px 5px 5px gray;
 }
+.restaurant-img{
+  height: 300px;
+  background-color: lightgray;
+}
