@@ -181,8 +181,12 @@ h1{
   box-shadow: inset 5px 5px 5px gray;
 }
 .restaurant-img{
-  height: 500px;
-  background-color: lightgray;
+  height: 400px;
+  /* background-color: lightgray; */
+  background-size: cover;
+}
+.list{
+  font-size: x-large;
 }
 .left{
   width: 45%;
