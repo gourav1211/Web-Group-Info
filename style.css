@@ -127,7 +127,29 @@ h1{
 .four{
   background-color: yellow;
 } */
+<<<<<<< HEAD
 .one:hover,.two:hover,.three:hover,.four:hover{
+=======
+.one,
+.two,
+.three,
+.four {
+  width: 290px;
+  height: 250px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 7px 7px grey; */
+  border: 2px solid black;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
+>>>>>>> ffdb8443dc6b59e3d4bfd327748966380a7b5191
   width: 290px;
   height: 250px;
   border-radius: 25px;
@@ -138,6 +160,7 @@ h1{
   /* border: 3px solid black; */
   transition: 0.25s;
 }
+<<<<<<< HEAD
 .one,.two,.three,.four{
   width: 290px;
   height: 250px;
@@ -147,6 +170,17 @@ h1{
   justify-content: center;
   /* box-shadow: 7px 7px grey; */
   border: 2px solid black;
+=======
+
+.hero-image {
+  background-image: url("istockphoto-1311934969-612x612.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+>>>>>>> ffdb8443dc6b59e3d4bfd327748966380a7b5191
 }
 
 .submit{
