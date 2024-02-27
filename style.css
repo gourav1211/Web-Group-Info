@@ -73,7 +73,7 @@ nav a:hover {
 .team-members {
   display: flex;
 }
-[class|=team-member] {
+[class|="team-member"] {
   display: block;
   width: 30%;
   height: 30%;
@@ -83,16 +83,16 @@ nav a:hover {
   padding: 8px;
 }
 
-.team-member-1{
+.team-member-1 {
   background-color: rgb(232, 138, 138);
 }
-.team-member-2{
+.team-member-2 {
   background-color: rgb(137, 239, 149);
 }
-.team-member-3{
+.team-member-3 {
   background-color: rgb(204, 241, 70);
 }
-.team-member-4{
+.team-member-4 {
   background-color: rgb(82, 166, 239);
 }
 .about-team-text {
@@ -101,19 +101,17 @@ nav a:hover {
   height: 20vh;
   padding-top: 3rem;
 }
-h1{
+h1 {
   text-align: center;
 }
-.image{
+.image {
   float: left;
   width: 50%;
-
 }
-.requirements{
+.requirements {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 20px;
-
 }
 /* .one{
   background-color: red;
@@ -127,7 +125,10 @@ h1{
 .four{
   background-color: yellow;
 } */
-.one:hover,.two:hover,.three:hover,.four:hover{
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
   width: 290px;
   height: 250px;
   border-radius: 25px;
@@ -138,7 +139,10 @@ h1{
   /* border: 3px solid black; */
   transition: 0.25s;
 }
-.one,.two,.three,.four{
+.one,
+.two,
+.three,
+.four {
   width: 290px;
   height: 250px;
   border-radius: 25px;
@@ -148,25 +152,38 @@ h1{
   /* box-shadow: 7px 7px grey; */
   border: 2px solid black;
 }
-.up{
-  width: 100%;
-  background-color: black;
-  align-items: center;
+.hero-image {
+  background-image: url("istockphoto-1311934969-612x612.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.head{
-  position: fixed;
-  top: 120px;
-  left: 30%;
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.head {
+  position: absolute;
+  top: 20px;
+  left: 39%;
   color: white;
   font-size: 65px;
 }
-.down{
+.down {
   /* background-color: blue; */
   height: 252px;
   padding-top: 50px;
   padding-left: 30px;
 }
-.box{
+.box {
   background-color: white;
   height: 180px;
   width: 750px;
@@ -176,14 +193,14 @@ h1{
   background-color: lightgray;
   box-shadow: 7px 7px 5px grey;
 }
-.submit{
+.submit {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 180px;
   /* background-color: green; */
 }
-.submit-button{
+.submit-button {
   width: 150px;
   height: 50px;
   border-radius: 50px;
@@ -192,10 +209,16 @@ h1{
   background-color: cyan;
   box-shadow: 3px 3px 5px gray;
 }
-.submit-button:active{
+.submit-button:active {
   box-shadow: inset 5px 5px 5px gray;
 }
-.restaurant-img{
+.restaurant-img {
   height: 300px;
   background-color: lightgray;
 }
+
+.contact-img {
+  width: 100%;
+  height: 30%;
+}
+
