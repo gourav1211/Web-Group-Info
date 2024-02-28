@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #0f0;
+  background-color: lightgreen;
   padding: 20px 0;
 }
 
@@ -96,7 +96,7 @@ nav a:hover {
 }
 .about-team-text {
   text-align: center;
-  background-color: #0f0;
+  background-color: lightgreen;
   height: 20vh;
   padding-top: 3rem;
 }
